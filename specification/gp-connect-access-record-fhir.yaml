@@ -559,6 +559,9 @@ paths:
                           performer:
                             reference: Practitioner/6c41ebfd-57c3-4162-9d7b-208c171a2fd7
                           effectiveDateTime: '2019-03-28T10:30:00+00:00'
+
+              medication:
+                  $ref: examples/MedicationResponse.json
                     
                 immunizations:
                   value:
