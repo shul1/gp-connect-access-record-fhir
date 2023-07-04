@@ -808,6 +808,9 @@ paths:
                                     code: count
                                     display: Counts
                     
+                medication:
+                   $ref: MedicationResponse.json
+                   
                 allergies:
                   value:
                     resourceType: Bundle
